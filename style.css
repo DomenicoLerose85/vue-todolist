@@ -9,6 +9,25 @@ h1{
     font-weight: 700;
 }
 
+.input-group{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 220px;
+    color: red;
+    font-weight: bold;
+}
+
+.btn.btn-success{
+    background-color: rgb(46, 156, 23);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+} 
+
 ul li{
     color: white;
     font-size: 30px;
