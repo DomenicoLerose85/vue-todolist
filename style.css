@@ -3,6 +3,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.cursor{
+    cursor: pointer;
+}
+
 h1{
     text-align: center;
     font-size: 40px;
@@ -16,7 +20,7 @@ h1{
 
 input{
     width: 220px;
-    color: red;
+    color: rgb(182, 78, 78);
     font-weight: bold;
 }
 
@@ -25,8 +29,12 @@ input{
     color: white;
     border-radius: 5px;
     font-weight: bold;
-
 } 
+
+.btn.btn-success:hover{
+    cursor: pointer;
+    background-color: rgb(18, 73, 7);
+}
 
 ul li{
     color: white;

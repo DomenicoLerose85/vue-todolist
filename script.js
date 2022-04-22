@@ -23,7 +23,7 @@ const toDoList = new Vue({
                 done: false,
             },
             {
-                text: 'Go to the pub',
+                text: 'Go to the pub for a Pint',
                 done: false,
             },
             {
@@ -34,9 +34,17 @@ const toDoList = new Vue({
                 text: 'After dinner, chill and watch a movie',
                 done: false,
             },
-        ]
+        ],
+        newTask: '',
+        
     },
     methods: {
-        
+        add() {
+            const task = {
+               text: this.newTask,
+               done: false,
+           } 
+           this.mylist.push(newTask)
+        }
     },
 });
